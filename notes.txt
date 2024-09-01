@@ -1,0 +1,2 @@
+`SELECT sensor_id, COALESCE(sensor_type,''), COALESCE(sys_creation_date,''), COALESCE(sys_update_date,''), COALESCE(sensor_name,''), COALESCE(description,'')
+	FROM home.sensors;`
